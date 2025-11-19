@@ -1,11 +1,42 @@
 
-# DarkCool
+# DarkCool / DarkMad
 
 **DarkCool**, a versatile Python-based security tool designed to provide leading solutions in _penetration testing_, _forensic analysis_, _information security management_, and _automated hacking_. With over _213 impressive features_, **DarkCool** is the top choice for security professionals who prioritize diversity, ease of use, and convenience.
 
 <img src="https://github.com/DarkSkull777/DarkCool/raw/main/Rec/lv_0_20240201002048.gif" width="480" height="360">
 
-## About
+## 🆕 DarkMad Hidden Services Scanner
+
+**NEW!** Production-ready scanner specifically designed for VPS deployment targeting hidden services (.onion sites).
+
+### Key Features
+- ✅ **VPS Optimized**: Automated systemd service with 2-hour timer
+- ✅ **Hidden Services**: Tor/SOCKS5 proxy support for .onion scanning
+- ✅ **Credential Harvesting**: Automatic detection and extraction
+- ✅ **Local Reports**: JSON reports with timestamps and metadata
+- ✅ **Telegram Alerts**: Real-time notifications with credentials
+- ✅ **Production Ready**: Security hardened, logging, error handling
+
+### Quick Start
+```bash
+# Install (as root)
+sudo ./install.sh
+
+# Configure
+sudo nano /opt/darkmad/config.json
+
+# Start automatic scanning
+sudo systemctl start darkmad.timer
+```
+
+📖 **Documentation:**
+- [Quick Start Guide](QUICKSTART.md) - Get started in 5 minutes
+- [Usage Guide](USAGE_GUIDE.md) - Common commands and troubleshooting
+- [Full Documentation](README_HIDDEN_SERVICES.md) - Complete feature reference
+
+---
+
+## About DarkCool
 
 Unleash the power of **DarkCool**, your all-in-one Python-based security tool with a robust set of features tailored for automated hacking. Here are some key highlights:
 
