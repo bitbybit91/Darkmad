@@ -3,6 +3,7 @@
 # Reports directory - contains sensitive data
 reports/
 *.json
+!config.example.json
 
 # Configuration files - may contain tokens
 config.json

@@ -1,0 +1,29 @@
+{
+    "tor_proxy": {
+        "enabled": true,
+        "host": "127.0.0.1",
+        "port": 9050,
+        "type": "socks5"
+    },
+    "telegram": {
+        "enabled": true,
+        "bot_token": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz-EXAMPLE",
+        "chat_id": "123456789"
+    },
+    "scanning": {
+        "timeout": 30,
+        "retry_attempts": 3,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    },
+    "reports": {
+        "directory": "reports",
+        "format": "json"
+    },
+    "targets": {
+        "hidden_services": [
+            "http://example1.onion",
+            "http://example2.onion",
+            "http://example3.onion"
+        ]
+    }
+}
