@@ -1,1 +1,14 @@
-deleted : setup_darkcool.py
+# DarkMad Hidden Services Scanner Requirements
+# Python 3.8+
+
+# HTTP requests with SOCKS proxy support
+requests[socks]>=2.31.0
+
+# HTTP client
+urllib3>=2.0.0
+
+# For SOCKS5 proxy (Tor support)
+PySocks>=1.7.1
+
+# Additional security
+certifi>=2023.0.0
